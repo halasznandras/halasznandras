@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(162,202,221);
+}
+.container{
+    max-width: 1300px;
+    margin:0 auto;
+}
+.header{
+    height: 580px;
+    background: url('../img/picture1.jpg');
+    color:white;
+    font-size: 2rem;
+    padding: 250px 0 0 400px;
+}
+.navigation{
+    background-color: #5473b4
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul::after, .hasab::after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.navigation ul li{
+    width:20%;
+    float:left;
+    text-align: center;
+}
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+    padding:30px;
+    display:block;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+    background-color: #455f97;
+    text-decoration: underline;
+}
+.content{
+    background: #ddd;
+}
+.content .hasab img{
+    max-width: 50%;
+}
+.content .hasab p{
+    float:left;
+    max-width:50%;
+    font-size:.8rem;
+    padding:20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.kep1{
+    float:left;
+}
+.kep2{
+    float:right;
+}
+.footer{
+    background: white;
+    height: 200px;
+    font-size: .8rem;
+    padding-top: 100px;
+    text-align: center;
+    color:rgb(98, 97, 97)
+}

@@ -1,0 +1,13 @@
+print("szatyi")
+while True:
+    a=float(input("a oldal"))
+    b=float(input("b oldal"))
+    c=float(input("c oldal"))
+    valasz=input("befejezted az adatok megadását? i/n")
+    if valasz=='i':
+        break
+def terfogat(a,b,c):
+    v=a*b*c
+    return v
+liter=terfogat(a,b,c)
+print(" térfogat ",liter)
